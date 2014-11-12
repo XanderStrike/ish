@@ -9,4 +9,4 @@ sensors | grep Physical | awk '{print "Temp:\t" $4}'
 printf "IPs:\t"
 ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' | tr '\n' " "
 printf "\n"
-acpi -b | awk '{print "Batt:\t" $4 " " $5 " remaining"}'
+acpi -b | awk '{print "Batt:\t" $4 " " $5 " " $6 " " $7}'
