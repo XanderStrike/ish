@@ -11,5 +11,9 @@ Output:
     Home: 26G used of 88G (31%)
     Core 0: +32.0°C
     Core 1: +31.0°C
+    IPs: 10.10.4.3 10.21.9.214
+    Battery: 67%, (03:44:32 remaining)
+
+The script will require tweaking for every given system.
 
 Copy to `/usr/bin/i` for maximum wonder and joy.

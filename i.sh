@@ -9,3 +9,4 @@ sensors | grep Core | awk '{print $1 " " $2 " " $3}'
 printf "IPs: "
 ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' | tr '\n' " "
 printf "\n"
+acpi -b | awk '{print $1 ": " $4 " (" $5 " remaining)"}'
