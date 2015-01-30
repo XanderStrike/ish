@@ -17,3 +17,5 @@ Output:
 The script will require tweaking for every given system.
 
 Copy to `/usr/bin/i` for maximum wonder and joy.
+
+Use imac.sh with iStats (`gem install iStats`) for a similar experience.
